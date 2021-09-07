@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T14:21:49.094Z" agent="5.0 (X11)" etag="nikiyUkCwDxwwhrB3S-w" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T14:47:42.356Z" agent="5.0 (X11)" etag="GBQwKW6GSLTYic65l0CW" version="15.1.0" type="github">
   <diagram id="9R-i74DeMPhSz7cRhkr1" name="Page-1">
     <mxGraphModel dx="1036" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-1" target="TETFTrsI7cYIw3K0vq1E-14">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-15" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-1" target="TETFTrsI7cYIw3K0vq1E-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-1" target="TETFTrsI7cYIw3K0vq1E-19">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-20" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-1" target="TETFTrsI7cYIw3K0vq1E-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-1" value="BitBucket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-1" value="Push BitBucket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="16" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TETFTrsI7cYIw3K0vq1E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-2" target="TETFTrsI7cYIw3K0vq1E-6">
@@ -34,13 +34,16 @@
         <mxCell id="TETFTrsI7cYIw3K0vq1E-8" value="Terraform Apply" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="55" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-10" target="TETFTrsI7cYIw3K0vq1E-12">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-10" target="TETFTrsI7cYIw3K0vq1E-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-10" value="Build" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-10" value="Build Image" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="335" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-12" value="Deploy" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-30" value="Trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-12" target="TETFTrsI7cYIw3K0vq1E-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-12" value="Push BitBucket" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="335" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TETFTrsI7cYIw3K0vq1E-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-14" target="TETFTrsI7cYIw3K0vq1E-2">
@@ -54,6 +57,27 @@
         </mxCell>
         <mxCell id="TETFTrsI7cYIw3K0vq1E-19" value="Cloud Build" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="16" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-24" target="TETFTrsI7cYIw3K0vq1E-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-24" value="Push Image" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-26" target="TETFTrsI7cYIw3K0vq1E-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-26" value="Update Helm Charts Repo" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-29" target="TETFTrsI7cYIw3K0vq1E-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-29" value="Cloud Build" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-31" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="385" y="450" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
