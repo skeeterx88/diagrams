@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T15:16:59.840Z" agent="5.0 (X11)" etag="wrveYTXBxeJjiCoc67I3" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T16:41:10.923Z" agent="5.0 (X11)" etag="FnrKofIJ4GT4xcUVp2YM" version="15.1.0" type="github">
   <diagram id="9R-i74DeMPhSz7cRhkr1" name="Page-1">
-    <mxGraphModel dx="796" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,10 +28,10 @@
         <mxCell id="TETFTrsI7cYIw3K0vq1E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-6" target="TETFTrsI7cYIw3K0vq1E-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-6" value="Terraform Plan" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-6" value="&lt;div&gt;Terraform Plan&lt;/div&gt;&lt;div&gt;Anthos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="407" y="55" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TETFTrsI7cYIw3K0vq1E-8" value="Terraform Apply" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="TETFTrsI7cYIw3K0vq1E-8" value="&lt;div&gt;Terraform Apply&lt;/div&gt;&lt;div&gt;Anthos&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="607" y="55" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TETFTrsI7cYIw3K0vq1E-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="TETFTrsI7cYIw3K0vq1E-10" target="TETFTrsI7cYIw3K0vq1E-24">
