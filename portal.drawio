@@ -1,4 +1,4 @@
-<mxfile modified="2022-07-05T21:55:11.612Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="B-OmJ2zJDnhZaz0c2eaw" version="20.0.4" type="github">
+<mxfile modified="2022-07-05T21:55:51.779Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ZwFiPzulyVfS6VRoDR3o" version="20.0.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
         <mxCell id="hSxU9nhvMt24uW7oTp4U-52" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" parent="hSxU9nhvMt24uW7oTp4U-9" vertex="1">
           <mxGeometry x="20" y="431" width="200" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="hSxU9nhvMt24uW7oTp4U-18" value="security list &lt;br&gt;public" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" parent="hSxU9nhvMt24uW7oTp4U-52" vertex="1">
+        <mxCell id="hSxU9nhvMt24uW7oTp4U-18" value="security group&lt;br&gt;lb" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" parent="hSxU9nhvMt24uW7oTp4U-52" vertex="1">
           <mxGeometry x="30" y="81" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VFxCpets81M08XsOUOsf-4" value="ALB" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;labelPosition=center;" vertex="1" parent="hSxU9nhvMt24uW7oTp4U-52">
@@ -119,7 +119,7 @@
         <mxCell id="hSxU9nhvMt24uW7oTp4U-28" value="bastion" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Virtual_Machine.svg;" parent="hSxU9nhvMt24uW7oTp4U-9" vertex="1">
           <mxGeometry x="429" y="69" width="60.87" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="hSxU9nhvMt24uW7oTp4U-47" value="security list &lt;br&gt;bastion" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" parent="hSxU9nhvMt24uW7oTp4U-9" vertex="1">
+        <mxCell id="hSxU9nhvMt24uW7oTp4U-47" value="security group&lt;br&gt;bastion" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" parent="hSxU9nhvMt24uW7oTp4U-9" vertex="1">
           <mxGeometry x="150" y="110" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VFxCpets81M08XsOUOsf-2" value="Peering" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=1;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.peering;" vertex="1" parent="hSxU9nhvMt24uW7oTp4U-9">
@@ -137,7 +137,7 @@
         </mxCell>
         <mxCell id="hSxU9nhvMt24uW7oTp4U-17" value="HTTTPS" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelPosition=right;verticalLabelPosition=middle;fontStyle=1" parent="hSxU9nhvMt24uW7oTp4U-12" vertex="1" connectable="0">
           <mxGeometry x="0.4189" relative="1" as="geometry">
-            <mxPoint x="-31" as="offset" />
+            <mxPoint x="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSxU9nhvMt24uW7oTp4U-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#06080A;" parent="1" edge="1">
