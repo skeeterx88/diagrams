@@ -1,4 +1,4 @@
-<mxfile modified="2022-07-05T21:47:43.380Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="0kgwYGuU7_4Jw6Fvi5fc" version="20.0.4" type="github">
+<mxfile modified="2022-07-05T21:48:36.600Z" host="app.diagrams.net" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="riJY9_jKDhVG7UrUV1w0" version="20.0.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -112,8 +112,9 @@
         <mxCell id="hSxU9nhvMt24uW7oTp4U-10" value="Load Balancer" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;" vertex="1" parent="hSxU9nhvMt24uW7oTp4U-9">
           <mxGeometry x="100" y="471" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hSxU9nhvMt24uW7oTp4U-44" value="Rancher" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1" edge="1" parent="hSxU9nhvMt24uW7oTp4U-9" source="hSxU9nhvMt24uW7oTp4U-15" target="hSxU9nhvMt24uW7oTp4U-37">
+        <mxCell id="hSxU9nhvMt24uW7oTp4U-44" value="Rancher" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;strokeColor=#82b366;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1" edge="1" parent="hSxU9nhvMt24uW7oTp4U-9" source="hSxU9nhvMt24uW7oTp4U-15">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="311" as="targetPoint" />
             <Array as="points">
               <mxPoint x="86" y="310" />
               <mxPoint x="193" y="310" />
